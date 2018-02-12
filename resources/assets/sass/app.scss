@@ -1,0 +1,50 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+
+// Font Awesome
+import fontawesome from '@fortawesome/fontawesome'
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+
+// Bulma (Bulma.io) v0.51
+// 1. Import the initial variables
+@import "node_modules/bulma/sass/utilities/initial-variables";
+
+// 2. Set your own initial variables
+// Update blue
+$blue: #72d0eb;
+// Add pink and its invert
+$pink: #ff7878;
+$pink-invert: #fff;
+// Add a serif family
+$family-serif: "Merriweather", "Georgia", serif;
+
+// 3. Set the derived variables
+// Use the new pink as the primary color
+$primary: $pink;
+$primary-invert: $pink-invert;
+// Use the existing orange as the danger color
+$danger: $orange;
+// Use the new serif family
+
+
+// 4. Import the rest of Bulma
+@import "node_modules/bulma/bulma";
+
+// Change labels to black
+.label {
+	color: #000;
+}
+
+a:hover {
+	text-decoration: none;
+}
