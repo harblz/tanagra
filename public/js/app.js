@@ -48217,7 +48217,7 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-38901258"
+var __vue_scopeId__ = "data-v-12ca9994"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
@@ -48228,7 +48228,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\FileUpload.vue"
+Component.options.__file = "resources/assets/js/components/FileUpload.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -48237,9 +48237,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-38901258", Component.options)
+    hotAPI.createRecord("data-v-12ca9994", Component.options)
   } else {
-    hotAPI.reload("data-v-38901258", Component.options)
+    hotAPI.reload("data-v-12ca9994", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -48342,7 +48342,9 @@ $('.some_class').click(function () {
 });
 
 // this is a test layout for VUE-grid-layout
-var testLayout = [{ "x": 0, "y": 0, "w": 2, "h": 2, "i": "0", "path": "/path/to/image/file", "word": "cat" }, { "x": 2, "y": 0, "w": 2, "h": 4, "i": "1", "path": "/path/to/image/file", "word": "apple" }, { "x": 4, "y": 0, "w": 2, "h": 5, "i": "2", "path": "/path/to/image/file", "word": "test" }, { "x": 6, "y": 0, "w": 2, "h": 3, "i": "3", "path": "/path/to/image/file", "word": "The" }, { "x": 8, "y": 0, "w": 2, "h": 3, "i": "4", "path": "/path/to/image/file", "word": "Quick" }, { "x": 10, "y": 0, "w": 2, "h": 3, "i": "5", "path": "/path/to/image/file", "word": "Brown" }, { "x": 0, "y": 5, "w": 2, "h": 5, "i": "6", "path": "/path/to/image/file", "word": "Fox" }, { "x": 2, "y": 5, "w": 2, "h": 5, "i": "7", "path": "/path/to/image/file", "word": "Jumped" }, { "x": 4, "y": 5, "w": 2, "h": 5, "i": "8", "path": "/path/to/image/file", "word": "Over" }, { "x": 6, "y": 4, "w": 2, "h": 4, "i": "9", "path": "/path/to/image/file", "word": "The" }, { "x": 8, "y": 4, "w": 2, "h": 4, "i": "10", "path": "/path/to/image/file", "word": "Lazy" }, { "x": 10, "y": 4, "w": 2, "h": 4, "i": "11", "path": "/path/to/image/file", "word": "Dog" }, { "x": 0, "y": 10, "w": 2, "h": 5, "i": "12", "path": "/path/to/image/file", "word": "While" }, { "x": 2, "y": 10, "w": 2, "h": 5, "i": "13", "path": "/path/to/image/file", "word": "Holding" }, { "x": 4, "y": 8, "w": 2, "h": 4, "i": "14", "path": "/path/to/image/file", "word": "an" }, { "x": 6, "y": 8, "w": 2, "h": 4, "i": "15", "path": "/path/to/image/file", "word": "Orange" }, { "x": 8, "y": 10, "w": 2, "h": 5, "i": "16", "path": "/path/to/image/file", "word": "In" }, { "x": 10, "y": 4, "w": 2, "h": 2, "i": "17", "path": "/path/to/image/file", "word": "It's" }, { "x": 0, "y": 9, "w": 2, "h": 3, "i": "18", "path": "/path/to/image/file", "word": "Clenched" }, { "x": 2, "y": 6, "w": 2, "h": 2, "i": "19", "path": "/path/to/image/file", "word": "Jaws" }];
+var qq = 'data:image/png;base64,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';
+
+var testLayout = [];
 
 var app = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
     el: '#app',
@@ -48386,6 +48388,11 @@ var app = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
             if (_this.loginStatus == true) {
                 _this.user = response.data.user;
             }
+        });
+
+        this.$http.get('/words/1/all').then(function (response) {
+            console.log(response.data.words);
+            _this.layout = response.data.words;
         });
     }
 });
@@ -79134,7 +79141,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\TanagraWelcome.vue"
+Component.options.__file = "resources/assets/js/TanagraWelcome.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -79143,9 +79150,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-3c80ba2a", Component.options)
+    hotAPI.createRecord("data-v-5b810944", Component.options)
   } else {
-    hotAPI.reload("data-v-3c80ba2a", Component.options)
+    hotAPI.reload("data-v-5b810944", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -79166,13 +79173,13 @@ var content = __webpack_require__(356);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(11)("dc5e0ef4", content, false, {});
+var update = __webpack_require__(11)("01968ef2", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-3c80ba2a\",\"scoped\":false,\"hasInlineConfig\":true}!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./TanagraWelcome.vue", function() {
-     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-3c80ba2a\",\"scoped\":false,\"hasInlineConfig\":true}!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./TanagraWelcome.vue");
+   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-5b810944\",\"scoped\":false,\"hasInlineConfig\":true}!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./TanagraWelcome.vue", function() {
+     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-5b810944\",\"scoped\":false,\"hasInlineConfig\":true}!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./TanagraWelcome.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -79320,7 +79327,7 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-3c80ba2a", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-5b810944", module.exports)
   }
 }
 
@@ -79354,7 +79361,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\TanagraNav.vue"
+Component.options.__file = "resources/assets/js/components/TanagraNav.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -79363,9 +79370,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-d8319cf8", Component.options)
+    hotAPI.createRecord("data-v-7a0c5778", Component.options)
   } else {
-    hotAPI.reload("data-v-d8319cf8", Component.options)
+    hotAPI.reload("data-v-7a0c5778", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -79386,13 +79393,13 @@ var content = __webpack_require__(362);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(11)("916ca1d6", content, false, {});
+var update = __webpack_require__(11)("9488b932", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-d8319cf8\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./TanagraNav.vue", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-d8319cf8\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./TanagraNav.vue");
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-7a0c5778\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./TanagraNav.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-7a0c5778\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./TanagraNav.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -79548,7 +79555,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\TanagraLogin.vue"
+Component.options.__file = "resources/assets/js/components/TanagraLogin.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -79557,9 +79564,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-0748368a", Component.options)
+    hotAPI.createRecord("data-v-8785ad6c", Component.options)
   } else {
-    hotAPI.reload("data-v-0748368a", Component.options)
+    hotAPI.reload("data-v-8785ad6c", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -79639,7 +79646,7 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-f15ac034"
+var __vue_scopeId__ = "data-v-2e00a526"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
@@ -79650,7 +79657,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\LoginForm.vue"
+Component.options.__file = "resources/assets/js/components/LoginForm.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -79659,9 +79666,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-f15ac034", Component.options)
+    hotAPI.createRecord("data-v-2e00a526", Component.options)
   } else {
-    hotAPI.reload("data-v-f15ac034", Component.options)
+    hotAPI.reload("data-v-2e00a526", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -79682,13 +79689,13 @@ var content = __webpack_require__(368);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(11)("9884615e", content, false, {});
+var update = __webpack_require__(11)("37fdc5eb", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-f15ac034\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./LoginForm.vue", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-f15ac034\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./LoginForm.vue");
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-2e00a526\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./LoginForm.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-2e00a526\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./LoginForm.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -79706,7 +79713,7 @@ exports = module.exports = __webpack_require__(7)(false);
 
 
 // module
-exports.push([module.i, "\n.modal-card[data-v-f15ac034] {\n    width: auto;\n}\n", ""]);
+exports.push([module.i, "\n.modal-card[data-v-2e00a526] {\n    width: auto;\n}\n", ""]);
 
 // exports
 
@@ -79901,7 +79908,7 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-f15ac034", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-2e00a526", module.exports)
   }
 }
 
@@ -79955,7 +79962,7 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-0748368a", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-8785ad6c", module.exports)
   }
 }
 
@@ -80077,7 +80084,7 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-d8319cf8", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-7a0c5778", module.exports)
   }
 }
 
@@ -80111,7 +80118,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\TanagraHome.vue"
+Component.options.__file = "resources/assets/js/components/TanagraHome.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -80120,9 +80127,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-51d9e9ce", Component.options)
+    hotAPI.createRecord("data-v-051b9f0e", Component.options)
   } else {
-    hotAPI.reload("data-v-51d9e9ce", Component.options)
+    hotAPI.reload("data-v-051b9f0e", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -80143,13 +80150,13 @@ var content = __webpack_require__(375);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(11)("f3d107c4", content, false, {});
+var update = __webpack_require__(11)("2933a80f", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-51d9e9ce\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./TanagraHome.vue", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-51d9e9ce\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./TanagraHome.vue");
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-051b9f0e\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./TanagraHome.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-051b9f0e\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./TanagraHome.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -80167,7 +80174,7 @@ exports = module.exports = __webpack_require__(7)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/*** EXAMPLE ***/\n#content {\n    width: 100%;\n}\n.vue-grid-layout {\n    background: #fff;\n}\n.layoutJSON {\n    background: #ddd;\n    border: 1px solid black;\n    margin-top: 10px;\n    padding: 10px;\n}\n.eventsJSON {\n    background: #ddd;\n    border: 1px solid black;\n    margin-top: 10px;\n    padding: 10px;\n    height: 100px;\n    overflow-y: scroll;\n}\n.columns {\n    -webkit-columns: 120px;\n    columns: 120px;\n}\n.vue-resizable-handle {\n    z-index: 5000;\n    position: absolute;\n    width: 20px;\n    height: 20px;\n    bottom: 0;\n    right: 0;\n    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pg08IS0tIEdlbmVyYXRvcjogQWRvYmUgRmlyZXdvcmtzIENTNiwgRXhwb3J0IFNWRyBFeHRlbnNpb24gYnkgQWFyb24gQmVhbGwgKGh0dHA6Ly9maXJld29ya3MuYWJlYWxsLmNvbSkgLiBWZXJzaW9uOiAwLjYuMSAgLS0+DTwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DTxzdmcgaWQ9IlVudGl0bGVkLVBhZ2UlMjAxIiB2aWV3Qm94PSIwIDAgNiA2IiBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjojZmZmZmZmMDAiIHZlcnNpb249IjEuMSINCXhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiDQl4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjZweCIgaGVpZ2h0PSI2cHgiDT4NCTxnIG9wYWNpdHk9IjAuMzAyIj4NCQk8cGF0aCBkPSJNIDYgNiBMIDAgNiBMIDAgNC4yIEwgNCA0LjIgTCA0LjIgNC4yIEwgNC4yIDAgTCA2IDAgTCA2IDYgTCA2IDYgWiIgZmlsbD0iIzAwMDAwMCIvPg0JPC9nPg08L3N2Zz4=');\n    background-position: bottom right;\n    padding: 0 3px 3px 0;\n    background-repeat: no-repeat;\n    background-origin: content-box;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    cursor: se-resize;\n}\n.vue-grid-item:not(.vue-grid-placeholder) {\n    background: #fff;\n    border: 1px solid black;\n    overflow: hidden;\n}\n.vue-grid-item.resizing {\n    opacity: 0.9;\n}\n.vue-grid-item.static {\n    background: #cce;\n}\n.vue-grid-item .text {\n    font-size: 24px;\n    text-align: center;\n    position: absolute;\n    top: 0;\n    bottom: 0;\n    left: 0;\n    right: 0;\n    margin: auto;\n    height: 100%;\n    width: 100%;\n}\n.vue-grid-item .no-drag {\n    height: 100%;\n    width: 100%;\n}\n.vue-grid-item .minMax {\n    font-size: 12px;\n}\n.vue-grid-item .add {\n    cursor: pointer;\n}\n.vue-draggable-handle {\n    position: absolute;\n    width: 20px;\n    height: 20px;\n    top: 0;\n    left: 0;\n    background: url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10'><circle cx='5' cy='5' r='5' fill='#999999'/></svg>\") no-repeat;\n    background-position: bottom right;\n    padding: 0 8px 8px 0;\n    background-repeat: no-repeat;\n    background-origin: content-box;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    cursor: pointer;\n}\n.word-options-menu {\n\tposition: absolute;\n\tbottom: 0;\n\tmargin: 2.5px;\n}\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/*** EXAMPLE ***/\n#content {\n    width: 100%;\n}\n.vue-grid-layout {\n    background: #fff;\n}\n.layoutJSON {\n    background: #ddd;\n    border: 1px solid black;\n    margin-top: 10px;\n    padding: 10px;\n}\n.eventsJSON {\n    background: #ddd;\n    border: 1px solid black;\n    margin-top: 10px;\n    padding: 10px;\n    height: 100px;\n    overflow-y: scroll;\n}\n.columns {\n    -webkit-columns: 120px;\n    columns: 120px;\n}\n.vue-resizable-handle {\n    z-index: 5000;\n    position: absolute;\n    width: 20px;\n    height: 20px;\n    bottom: 0;\n    right: 0;\n    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pg08IS0tIEdlbmVyYXRvcjogQWRvYmUgRmlyZXdvcmtzIENTNiwgRXhwb3J0IFNWRyBFeHRlbnNpb24gYnkgQWFyb24gQmVhbGwgKGh0dHA6Ly9maXJld29ya3MuYWJlYWxsLmNvbSkgLiBWZXJzaW9uOiAwLjYuMSAgLS0+DTwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DTxzdmcgaWQ9IlVudGl0bGVkLVBhZ2UlMjAxIiB2aWV3Qm94PSIwIDAgNiA2IiBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjojZmZmZmZmMDAiIHZlcnNpb249IjEuMSINCXhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiDQl4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjZweCIgaGVpZ2h0PSI2cHgiDT4NCTxnIG9wYWNpdHk9IjAuMzAyIj4NCQk8cGF0aCBkPSJNIDYgNiBMIDAgNiBMIDAgNC4yIEwgNCA0LjIgTCA0LjIgNC4yIEwgNC4yIDAgTCA2IDAgTCA2IDYgTCA2IDYgWiIgZmlsbD0iIzAwMDAwMCIvPg0JPC9nPg08L3N2Zz4=');\n    background-position: bottom right;\n    padding: 0 3px 3px 0;\n    background-repeat: no-repeat;\n    background-origin: content-box;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    cursor: se-resize;\n}\n.vue-grid-item:not(.vue-grid-placeholder) {\n    background: #fff;\n    border: 1px solid black;\n    overflow: hidden;\n}\n.vue-grid-item.resizing {\n    opacity: 0.9;\n}\n.vue-grid-item.static {\n    background: #cce;\n}\n.vue-grid-item .text {\n    font-size: 24px;\n    text-align: center;\n    position: absolute;\n    top: 0;\n    bottom: 0;\n    left: 0;\n    right: 0;\n    margin: auto;\n    height: 100%;\n    width: 100%;\n}\n.vue-grid-item .no-drag {\n    height: 100%;\n    width: 100%;\n}\n.vue-grid-item .minMax {\n    font-size: 12px;\n}\n.vue-grid-item .add {\n    cursor: pointer;\n}\n.vue-draggable-handle {\n    position: absolute;\n    width: 20px;\n    height: 20px;\n    top: 0;\n    left: 0;\n    background: url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10'><circle cx='5' cy='5' r='5' fill='#999999'/></svg>\") no-repeat;\n    background-position: bottom right;\n    background-repeat: no-repeat;\n    background-origin: content-box;\n    padding: 0 8px 8px 0;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n    cursor: pointer;\n}\n.word-options-menu {\n\tposition: absolute;\n\tbottom: 0;\n\tmargin: 2.5px;\n}\n", ""]);
 
 // exports
 
@@ -80186,8 +80193,53 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__FileUpload_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__FileUpload_vue__);
 
 var ModalForm = {
-	props: ['email', 'password'],
-	template: '\n            <form action="">\n                <div class="modal-card" style="width: auto">\n                    <header class="modal-card-head">\n                        <p class="modal-card-title">Login</p>\n                    </header>\n                    <section class="modal-card-body">\n                        <b-field label="Email">\n                            <b-input\n                                type="email"\n                                :value="email"\n                                placeholder="Your email"\n                                required>\n                            </b-input>\n                        </b-field>\n\n                        <b-field label="Password">\n                            <b-input\n                                type="password"\n                                :value="password"\n                                password-reveal\n                                placeholder="Your password"\n                                required>\n                            </b-input>\n                        </b-field>\n\n                        <b-checkbox>Remember me</b-checkbox>\n                    </section>\n                    <footer class="modal-card-foot">\n                        <button class="button" type="button" @click="$parent.close()">Close</button>\n                        <button class="button is-primary">Login</button>\n                    </footer>\n                </div>\n            </form>\n        '
+				props: ['email', 'password'],
+				template: '\n            <form action="">\n                <div class="modal-card" style="width: auto">\n                    <header class="modal-card-head">\n                        <p class="modal-card-title">Login</p>\n                    </header>\n                    <section class="modal-card-body">\n                        <b-field label="Email">\n                            <b-input\n                                type="email"\n                                :value="email"\n                                placeholder="Your email"\n                                required>\n                            </b-input>\n                        </b-field>\n\n                        <b-field label="Password">\n                            <b-input\n                                type="password"\n                                :value="password"\n                                password-reveal\n                                placeholder="Your password"\n                                required>\n                            </b-input>\n                        </b-field>\n\n                        <b-checkbox>Remember me</b-checkbox>\n                    </section>\n                    <footer class="modal-card-foot">\n                        <button class="button" type="button" @click="$parent.close()">Close</button>\n                        <button class="button is-primary">Login</button>\n                    </footer>\n                </div>\n            </form>\n        '
+};
+
+var ChangePictureModal = {
+				props: ['uploadedImage'],
+
+				data: function data() {
+								return {
+												uploadedImageContainer: ''
+								};
+				},
+
+
+				template: '\n            <div class="modal-card" style="width: auto">\n                <header class="modal-card-head">\n                    <p class="modal-card-title">Login</p>\n                </header>\n                <section class="modal-card-body">\n\t\t\t\t\t<div v-if="!uploadedImageContainer">\n\t\t\t\t\t\t<h2>Select an image</h2>\n\t\t\t\t\t\t<input type="file" @change="onFileChange">\n\t\t\t\t\t</div>\n\t\t\t\t\t<div v-else>\n\t\t\t\t\t\t<img :src="uploadedImageContainer" />\n\t\t\t\t\t\t<button @click="removeImage">Remove image</button>\n\t\t\t\t\t</div>\n                </section>\n                <footer class="modal-card-foot">\n                    <button class="button" type="button" @click="$parent.close()">Close</button>\n                    <button class="button is-primary" @click="saveImage()">Change Picture!</button>\n                </footer>\n            </div>\n        ',
+				methods: {
+								onFileChange: function onFileChange(e) {
+												var files = e.target.files || e.dataTransfer.files;
+												if (!files.length) return;
+												this.createImage(files[0]);
+								},
+								saveImage: function saveImage() {
+												console.log('storing image');
+												this.$http.post('/image/upload', { _token: this.$root.csrfToken, image: this.uploadedImageContainer }).then(function (response) {
+																// status
+																console.log(response.status);
+												}, function (response) {
+																// error callback
+												});
+								},
+								createImage: function createImage(file) {
+												var uploadedImageContainer = new Image();
+												var reader = new FileReader();
+												var vm = this;
+
+												reader.onload = function (e) {
+																vm.uploadedImageContainer = e.target.result;
+												};
+												this.$emit('update:uploadedImage', vm.uploadedImageContainer);
+												reader.readAsDataURL(file);
+								},
+
+
+								removeImage: function removeImage(e) {
+												this.uploadedImage = '';
+								}
+				}
 };
 
 
@@ -80201,79 +80253,82 @@ var GridItem = __WEBPACK_IMPORTED_MODULE_1_vue_grid_layout___default.a.GridItem;
 
 /* harmony default export */ __webpack_exports__["default"] = ({
 
-	name: 'TanagraHome',
+				name: 'TanagraHome',
 
-	props: ['editMode', 'toggleSaveLayoutButton', 'layout', 'resetLayout', 'newLayout'],
+				props: ['editMode', 'toggleSaveLayoutButton', 'layout', 'resetLayout', 'newLayout'],
 
-	components: {
-		FontAwesomeIcon: __WEBPACK_IMPORTED_MODULE_0__fortawesome_vue_fontawesome___default.a,
-		GridLayout: GridLayout,
-		GridItem: GridItem,
-		FileUpload: __WEBPACK_IMPORTED_MODULE_2__FileUpload_vue___default.a,
-		ModalForm: ModalForm
-	},
+				components: {
+								FontAwesomeIcon: __WEBPACK_IMPORTED_MODULE_0__fortawesome_vue_fontawesome___default.a,
+								GridLayout: GridLayout,
+								GridItem: GridItem,
+								FileUpload: __WEBPACK_IMPORTED_MODULE_2__FileUpload_vue___default.a,
+								ModalForm: ModalForm,
+								ChangePictureModal: ChangePictureModal
+				},
 
-	data: function data() {
-		return {
-			isSettingsMenuActive: false,
-			formProps: {
-				email: 'evan@you.com',
-				password: 'testing'
-			},
+				data: function data() {
+								return {
+												uploadedImage: '',
+												isLoginModalActive: false,
+												IsChangePictureModalActive: false,
+												formProps: {
+																email: 'evan@you.com',
+																password: 'testing'
+												},
 
-			// VUE-grid-layout variables: layout, GridItem, and GridLayout (last 2 are Vue components)
-			//layout: testLayout,
-
-
-			// oldLayout -- when you enter edit mode, a copy of your current layout is saved to this variable
-			// in case you want to reset it using the resetLayout button. This is then emitted to the parent.
-			oldLayout: null,
-
-			GridItem: null,
-			GridLayout: null,
-
-			// toggle the "save changes?" button should you change the layout
-			toggleSaveLayout: false
-		};
-	},
+												// VUE-grid-layout variables: layout, GridItem, and GridLayout (last 2 are Vue components)
+												//layout: testLayout,
 
 
-	watch: {
-		editMode: {
-			handler: function handler() {
-				console.log('Edit Mode Toggled!');
-				// using JSON.parse + JSON.stringify to disable VUE's reactivity (copies the object w/o the observer)
-				this.oldLayout = JSON.parse(JSON.stringify(this.layout));
-				// save a copy of the layout to the resetLayout variable, in case the user wants to undo changes.
-				this.$emit('update:resetLayout', this.oldLayout);
-			},
-			deep: true
-		}
-	},
+												// oldLayout -- when you enter edit mode, a copy of your current layout is saved to this variable
+												// in case you want to reset it using the resetLayout button. This is then emitted to the parent.
+												oldLayout: null,
 
-	methods: {
-		layoutUpdated: function layoutUpdated(newLayout) {
-			// persist this to the database
-			console.log("Updated layout: ", newLayout);
-			// make the save & reset layout buttons visible, so the user can save / reset changes.
-			this.toggleSaveLayout = true;
-			this.$emit('update:toggleSaveLayoutButton', this.toggleSaveLayout);
-			// persist changes as they are made to the newLayout button
-			this.$emit('update:newLayout', this.layout);
-		},
+												GridItem: null,
+												GridLayout: null,
 
-		produceSpeech: function produceSpeech(word) {
-			if (this.editMode.value != true) {
-				var synth = window.speechSynthesis;
+												// toggle the "save changes?" button should you change the layout
+												toggleSaveLayout: false
+								};
+				},
 
-				//console.log('You clicked a word. Nice job!')
-				var utterance = new SpeechSynthesisUtterance(word);
-				synth.speak(utterance);
-			} else {
-				//console.log("You clicked a word. Nice work - but no speech was generated, as you're in edit mode!")
-			}
-		}
-	}
+
+				watch: {
+								editMode: {
+												handler: function handler() {
+																console.log('Edit Mode Toggled!');
+																// using JSON.parse + JSON.stringify to disable VUE's reactivity (copies the object w/o the observer)
+																this.oldLayout = JSON.parse(JSON.stringify(this.layout));
+																// save a copy of the layout to the resetLayout variable, in case the user wants to undo changes.
+																this.$emit('update:resetLayout', this.oldLayout);
+												},
+												deep: true
+								}
+				},
+
+				methods: {
+								layoutUpdated: function layoutUpdated(newLayout) {
+												// persist this to the database
+												console.log("Updated layout: ", newLayout);
+												// make the save & reset layout buttons visible, so the user can save / reset changes.
+												this.toggleSaveLayout = true;
+												this.$emit('update:toggleSaveLayoutButton', this.toggleSaveLayout);
+												// persist changes as they are made to the newLayout button
+												this.$emit('update:newLayout', this.layout);
+								},
+
+								produceSpeech: function produceSpeech(word) {
+												if (this.editMode.value != true) {
+																var synth = window.speechSynthesis;
+
+																//console.log('You clicked a word. Nice job!')
+																var utterance = new SpeechSynthesisUtterance(word);
+																synth.speak(utterance);
+												} else {
+																//console.log("You clicked a word. Nice work - but no speech was generated, as you're in edit mode!")
+												}
+								}
+				}
 });
 
 /***/ }),
@@ -80287,13 +80342,13 @@ var content = __webpack_require__(378);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(11)("5a01dca6", content, false, {});
+var update = __webpack_require__(11)("9e62c968", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-38901258\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./FileUpload.vue", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-38901258\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./FileUpload.vue");
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-12ca9994\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./FileUpload.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-12ca9994\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./FileUpload.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -80311,7 +80366,7 @@ exports = module.exports = __webpack_require__(7)(false);
 
 
 // module
-exports.push([module.i, "\nimg[data-v-38901258]{\n    max-height: 36px;\n}\n", ""]);
+exports.push([module.i, "\nimg[data-v-12ca9994]{\n    max-height: 36px;\n}\n", ""]);
 
 // exports
 
@@ -80415,7 +80470,7 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-38901258", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-12ca9994", module.exports)
   }
 }
 
@@ -80434,14 +80489,40 @@ var render = function() {
       _c(
         "b-modal",
         {
-          attrs: { active: _vm.isSettingsMenuActive, "has-modal-card": "" },
+          attrs: { active: _vm.isLoginModalActive, "has-modal-card": "" },
           on: {
             "update:active": function($event) {
-              _vm.isSettingsMenuActive = $event
+              _vm.isLoginModalActive = $event
             }
           }
         },
         [_c("modal-form", _vm._b({}, "modal-form", _vm.formProps, false))],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "b-modal",
+        {
+          attrs: {
+            active: _vm.IsChangePictureModalActive,
+            "has-modal-card": ""
+          },
+          on: {
+            "update:active": function($event) {
+              _vm.IsChangePictureModalActive = $event
+            }
+          }
+        },
+        [
+          _c("change-picture-modal", {
+            attrs: { uploadedImage: _vm.uploadedImage },
+            on: {
+              "update:uploadedImage": function($event) {
+                _vm.uploadedImage = $event
+              }
+            }
+          })
+        ],
         1
       ),
       _vm._v(" "),
@@ -80466,7 +80547,12 @@ var render = function() {
             "grid-item",
             {
               key: item.i,
-              style: { "background-image": "url(img/256x256.png)" },
+              style: {
+                "background-size": "50%",
+                "background-position": "center bottom",
+                "background-repeat": "no-repeat",
+                "background-image": "url(" + item.path + ")"
+              },
               attrs: { x: item.x, y: item.y, w: item.w, h: item.h, i: item.i },
               nativeOn: {
                 click: function($event) {
@@ -80486,7 +80572,7 @@ var render = function() {
                         staticClass: "button is-primary is-inverted",
                         on: {
                           click: function($event) {
-                            _vm.isSettingsMenuActive = true
+                            _vm.IsChangePictureModalActive = true
                           }
                         }
                       },
@@ -80496,28 +80582,14 @@ var render = function() {
                     _vm._v(" "),
                     _c(
                       "button",
-                      {
-                        staticClass: "button is-primary is-inverted",
-                        on: {
-                          click: function($event) {
-                            _vm.isSettingsMenuActive = true
-                          }
-                        }
-                      },
+                      { staticClass: "button is-primary is-inverted" },
                       [_c("font-awesome-icon", { attrs: { icon: "comment" } })],
                       1
                     ),
                     _vm._v(" "),
                     _c(
                       "button",
-                      {
-                        staticClass: "button is-primary is-inverted",
-                        on: {
-                          click: function($event) {
-                            _vm.isSettingsMenuActive = true
-                          }
-                        }
-                      },
+                      { staticClass: "button is-primary is-inverted" },
                       [_c("font-awesome-icon", { attrs: { icon: "wrench" } })],
                       1
                     )
@@ -80537,7 +80609,7 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-51d9e9ce", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-051b9f0e", module.exports)
   }
 }
 
@@ -80545,7 +80617,7 @@ if (false) {
 /* 382 */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed: ModuleBuildError: Module build failed: Error: Missing binding /mnt/c/Users/Harbl/Projects/tanagra/node_modules/node-sass/vendor/linux-x64-57/binding.node\nNode Sass could not find a binding for your current environment: Linux 64-bit with Node.js 8.x\n\nFound bindings for the following environments:\n  - Windows 64-bit with Node.js 9.x\n\nThis usually happens because your environment has changed since running `npm install`.\nRun `npm rebuild node-sass --force` to build the binding for your current environment.\n    at module.exports (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/node-sass/lib/binding.js:15:13)\n    at Object.<anonymous> (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/node-sass/lib/index.js:14:35)\n    at Module._compile (module.js:643:30)\n    at Object.Module._extensions..js (module.js:654:10)\n    at Module.load (module.js:556:32)\n    at tryModuleLoad (module.js:499:12)\n    at Function.Module._load (module.js:491:3)\n    at Module.require (module.js:587:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/sass-loader/lib/loader.js:3:14)\n    at Module._compile (module.js:643:30)\n    at Object.Module._extensions..js (module.js:654:10)\n    at Module.load (module.js:556:32)\n    at tryModuleLoad (module.js:499:12)\n    at Function.Module._load (module.js:491:3)\n    at Module.require (module.js:587:17)\n    at require (internal/module.js:11:18)\n    at loadLoader (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/loadLoader.js:13:17)\n    at iteratePitchingLoaders (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/LoaderRunner.js:165:10)\n    at /mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/LoaderRunner.js:173:18\n    at loadLoader (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/loadLoader.js:36:3)\n    at iteratePitchingLoaders (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/LoaderRunner.js:165:10)\n    at /mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/LoaderRunner.js:173:18\n    at loadLoader (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/loadLoader.js:36:3)\n    at iteratePitchingLoaders (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/LoaderRunner.js:165:10)\n    at /mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/LoaderRunner.js:173:18\n    at loadLoader (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/loadLoader.js:36:3)\n    at iteratePitchingLoaders (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at runLoaders (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/LoaderRunner.js:362:2)\n    at NormalModule.doBuild (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/webpack/lib/NormalModule.js:182:3)\n    at NormalModule.build (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/webpack/lib/NormalModule.js:275:15)\n    at Compilation.buildModule (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/webpack/lib/Compilation.js:151:10)\n    at moduleFactory.create (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/webpack/lib/Compilation.js:454:10)\n    at runLoaders (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/webpack/lib/NormalModule.js:195:19)\n    at /mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/LoaderRunner.js:364:11\n    at /mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/LoaderRunner.js:170:18\n    at loadLoader (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/loadLoader.js:27:11)\n    at iteratePitchingLoaders (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/LoaderRunner.js:165:10)\n    at /mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/LoaderRunner.js:173:18\n    at loadLoader (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/loadLoader.js:36:3)\n    at iteratePitchingLoaders (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/LoaderRunner.js:165:10)\n    at /mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/LoaderRunner.js:173:18\n    at loadLoader (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/loadLoader.js:36:3)\n    at iteratePitchingLoaders (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/LoaderRunner.js:165:10)\n    at /mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/LoaderRunner.js:173:18\n    at loadLoader (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/loadLoader.js:36:3)\n    at iteratePitchingLoaders (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at runLoaders (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/loader-runner/lib/LoaderRunner.js:362:2)\n    at NormalModule.doBuild (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/webpack/lib/NormalModule.js:182:3)\n    at NormalModule.build (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/webpack/lib/NormalModule.js:275:15)\n    at Compilation.buildModule (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/webpack/lib/Compilation.js:151:10)\n    at moduleFactory.create (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/webpack/lib/Compilation.js:454:10)\n    at factory (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/webpack/lib/NormalModuleFactory.js:243:5)\n    at applyPluginsAsyncWaterfall (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/webpack/lib/NormalModuleFactory.js:94:13)\n    at /mnt/c/Users/Harbl/Projects/tanagra/node_modules/tapable/lib/Tapable.js:268:11\n    at NormalModuleFactory.params.normalModuleFactory.plugin (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/webpack/lib/CompatibilityPlugin.js:52:5)\n    at NormalModuleFactory.applyPluginsAsyncWaterfall (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/tapable/lib/Tapable.js:272:13)\n    at resolver (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/webpack/lib/NormalModuleFactory.js:69:10)\n    at process.nextTick (/mnt/c/Users/Harbl/Projects/tanagra/node_modules/webpack/lib/NormalModuleFactory.js:196:7)\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)");
 
 /***/ })
 /******/ ]);

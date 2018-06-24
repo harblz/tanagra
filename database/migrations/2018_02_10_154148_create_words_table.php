@@ -14,12 +14,15 @@ class CreateWordsTable extends Migration
     public function up()
     {
         Schema::create('words', function (Blueprint $table) {
-            $table->increments('id');
-            //"x":0,"y":0,"w":2,"h":2,"i":"0"
+            $table->increments('id'); // note -- vue-grid-UI, for some tragic reason, uses 'i' instead of 'id'
+            $table->string('i'); // note -- vue-grid-UI, for some tragic reason, uses 'i' instead of 'id'
             $table->integer('x')->nullable();
             $table->integer('y')->nullable();
             $table->integer('w')->nullable();
             $table->integer('h')->nullable();
+            $table->text('path')->nullable();
+            $table->string('word')->nullable();
+            $table->string('label')->nullable();
             $table->timestamps();
         });
     }

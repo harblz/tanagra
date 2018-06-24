@@ -38,6 +38,75 @@
         `
     }
 
+    const ChangePictureModal = {
+        props: [ 'uploadedImage' ],
+
+        data() {
+        	return {
+        		uploadedImageContainer: '',
+        	}
+        },
+
+        template: `
+            <div class="modal-card" style="width: auto">
+                <header class="modal-card-head">
+                    <p class="modal-card-title">Login</p>
+                </header>
+                <section class="modal-card-body">
+					<div v-if="!uploadedImageContainer">
+						<h2>Select an image</h2>
+						<input type="file" @change="onFileChange">
+					</div>
+					<div v-else>
+						<img :src="uploadedImageContainer" />
+						<button @click="removeImage">Remove image</button>
+					</div>
+                </section>
+                <footer class="modal-card-foot">
+                    <button class="button" type="button" @click="$parent.close()">Close</button>
+                    <button class="button is-primary" @click="saveImage()">Change Picture!</button>
+                </footer>
+            </div>
+        `,
+        methods: {
+
+		    onFileChange(e) {
+				var files = e.target.files || e.dataTransfer.files;
+				if (!files.length)
+				return;
+				this.createImage(files[0]);
+		    },
+
+		    saveImage() {
+		    	console.log('storing image');
+		    	this.$http.post('/image/upload', { _token: this.$root.csrfToken, image: this.uploadedImageContainer}).then(response => {
+		    		// status
+		    		console.log(response.status);
+		    	}, response => {
+		    		// error callback
+		    	});
+		    },
+
+
+		    createImage(file) {
+				var uploadedImageContainer = new Image();
+				var reader = new FileReader();
+				var vm = this;
+
+				reader.onload = (e) => {
+					vm.uploadedImageContainer = e.target.result;
+				};
+				this.$emit('update:uploadedImage', vm.uploadedImageContainer)
+				reader.readAsDataURL(file);
+		    },
+
+
+		    removeImage: function (e) {
+		    	this.uploadedImage = '';
+		    },
+		}
+    }
+
 	import FontAwesomeIcon from '@fortawesome/vue-fontawesome'
 
 	import VueGridLayout from 'vue-grid-layout'
@@ -61,11 +130,14 @@
 			GridItem,
 			FileUpload,
 			ModalForm,
+			ChangePictureModal,
 		},
 
 		data() {
 			return {
-				isSettingsMenuActive: false,                
+				uploadedImage: '',
+				isLoginModalActive: false,
+				IsChangePictureModalActive: false,
 				formProps: {
 	                email: 'evan@you.com',
 	                password: 'testing',
@@ -110,6 +182,7 @@
 				// persist changes as they are made to the newLayout button
 				this.$emit('update:newLayout', this.layout)
 			},
+
 
 			produceSpeech: function(word) {
 				if ( this.editMode.value != true ) {
@@ -159,8 +232,6 @@
 	    -webkit-columns: 120px;
 	    columns: 120px;
 	}
-
-
 
 	.vue-resizable-handle {
 	    z-index: 5000;
@@ -226,9 +297,9 @@
 	    left: 0;
 	    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10'><circle cx='5' cy='5' r='5' fill='#999999'/></svg>") no-repeat;
 	    background-position: bottom right;
-	    padding: 0 8px 8px 0;
 	    background-repeat: no-repeat;
 	    background-origin: content-box;
+	    padding: 0 8px 8px 0;
 	    box-sizing: border-box;
 	    cursor: pointer;
 	}
@@ -242,8 +313,12 @@
 
 <template>
 	<section class="container">
-		<b-modal :active.sync="isSettingsMenuActive" has-modal-card>
+		<b-modal :active.sync="isLoginModalActive" has-modal-card>
             <modal-form v-bind="formProps"></modal-form>
+        </b-modal>
+
+		<b-modal :active.sync="IsChangePictureModalActive" has-modal-card>
+            <change-picture-modal :uploadedImage.sync="uploadedImage"></change-picture-modal>
         </b-modal>
 
         <grid-layout
@@ -266,7 +341,7 @@
                         :w="item.w"
                         :h="item.h"
                         :i="item.i"
-                        v-bind:style="{ 'background-image': 'url(img/256x256.png)' }"
+                        v-bind:style="{'background-size': '50%', 'background-position':'center bottom', 'background-repeat': 'no-repeat', 'background-image': 'url('+item.path+')' }"
                 		@click.native="produceSpeech(item.word)"
                         >
 
@@ -277,21 +352,21 @@
 					<div class="word-options-menu" v-if="editMode.value == true">
 		                <!-- change the image !-->
 		                <button class="button is-primary is-inverted" 
-		                		@click="isSettingsMenuActive = true"
+		                		@click="IsChangePictureModalActive = true"
 		                		>
 		                	<font-awesome-icon icon="image" /></font-awesome-icon>
 		            	</button>
 
 		                <!-- change the label / tts setting !-->
 		                <button class="button is-primary is-inverted" 
-		                		@click="isSettingsMenuActive = true"
+		                		
 		                		>
 		                	<font-awesome-icon icon="comment" /></font-awesome-icon>
 		            	</button>
 		                
 		                <!-- toggle options !-->
 		                <button class="button is-primary is-inverted" 
-		                		@click="isSettingsMenuActive = true"
+		                		
 		                		>
 		                	<font-awesome-icon icon="wrench" /></font-awesome-icon>
 		            	</button>

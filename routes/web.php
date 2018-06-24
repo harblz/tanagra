@@ -19,7 +19,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-// Users
+// Is the user logged in? (changes UI -- not for any real authentication, etc.)
 Route::get('/user/login-status', function() {
 	$status = Auth::check();
 
@@ -29,6 +29,13 @@ Route::get('/user/login-status', function() {
 	} else {
 		return response(['status' => $status]);
 	}
+});
+
+// test image / word seeder
+Route::get('/words/1/all', function() {
+	$words = App\word::all();
+
+	return response(['words' => $words]);
 });
 
 Route::post('/image/upload', 'ImageController@create');

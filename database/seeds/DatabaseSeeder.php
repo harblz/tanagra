@@ -1,9 +1,11 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\Database\Eloquent\Model;
 
 class DatabaseSeeder extends Seeder
 {
+	protected $toTruncate = ['users'];
     /**
      * Run the database seeds.
      *
@@ -11,6 +13,12 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UsersTableSeeder::class);
+    	foreach($this->toTruncate as $table) {
+    		DB::table($table)->truncate();
+    	}
+
+        $this->call('UsersTableSeeder');
+        $this->call('ImageTableSeeder');
+        $this->call('WordTableSeeder');
     }
 }
